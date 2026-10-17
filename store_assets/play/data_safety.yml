@@ -1,0 +1,21 @@
+# Google Play データ セーフティ情報 (Data Safety Declarations)
+
+data_collected: false
+data_shared: false
+security_practices:
+  data_encrypted_in_transit: true
+  user_can_request_deletion: false  # 端末内のPreferences DataStoreのみに保存され、アプリ削除で全データ消去
+data_usage:
+  app_functionality:
+    - data_type: "ユーザーが作成したタイポグラフィスタイル設定"
+      collected: false
+      stored_locally: true
+      purpose: "ユーザーの作成したカスタムスタイルの永続化"
+  analytics:
+    collected: false
+  advertising:
+    collected: false
+target_audience:
+  contains_ads: false
+  age_rating: "3+"
+  designed_for_families: false
